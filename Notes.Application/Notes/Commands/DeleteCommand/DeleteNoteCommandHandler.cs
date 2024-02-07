@@ -22,9 +22,9 @@ namespace Notes.Application.Notes.Commands.DeleteCommand
             return Unit.Value;
         }
 
-        Task IRequestHandler<DeleteNoteCommand>.Handle(DeleteNoteCommand request, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
+        //Task IRequestHandler<DeleteNoteCommand>.Handle(DeleteNoteCommand request, CancellationToken cancellationToken)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
